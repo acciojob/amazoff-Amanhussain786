@@ -79,7 +79,7 @@ public class OrderService {
         {
             MM = "0"+MM;
         }
-        return HH + ":" + MM;
+        return HH+":"+MM;
     }
 
     public void deletePartnerById(String partnerId)
